@@ -1,0 +1,509 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.background {
+    background-color: black;
+}    
+
+.wrapper {
+    background-color: black;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav a {
+    color:white;
+    opacity: 0.7;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+nav a:last-child{
+    color: lavenderblush;
+    margin-right: 0px;
+}
+
+.first-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-image: url(./img/background-1\ 1.svg) ;
+    height: 600px;
+}
+
+.left-half {
+    margin: 110px;
+    width: 391px;
+    height: 544px;
+}
+
+.main-title {
+    padding-bottom: 30px;
+    font-size: 60px;
+    display: flex;
+    font-weight: 400;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.pink-text {
+  color: #EC7979;
+  font-size: 60px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-subtitle {
+    padding-bottom: 30px;
+    color:white;
+    font-weight: 400;
+}
+
+.title-breakline {
+    width: 64px;
+    /* margin: 0 auto; */
+   
+  }
+
+  .left-text {
+      padding-bottom: 30px;
+      color:white;
+  }
+
+  .section-title-brackline {
+    border: 1px solid #ffffff;
+    opacity: 0.7;
+  }
+
+.container {
+    position: relative;
+    width: 370px;
+    height: 370px;
+    margin: 110px 110px 0px;
+    background-color: #fff;
+    border-radius: 3%;
+}
+.try-text {
+    text-align: center;
+    display: flex;
+}
+.pink-word {
+  color: #EC7979;
+  margin: 0 4px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.downloadbtn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 11px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    overflow:hidden;
+}
+
+.registerbtn {
+    background-color: #EC7979;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    position: relative;
+    bottom: -74px;
+    border-bottom-left-radius:3% ;
+    border-bottom-right-radius:3% ;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+
+  .social {
+      background: rgba(248, 239, 239, 1);
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+  }
+  .social-text {
+    margin: 20px;
+  }
+
+  .social-text-title {
+    padding-bottom: 9px;
+  }
+
+  .social-text-subtitle {
+    color: rgba(134, 135, 139, 1);
+  
+  }
+
+  .social-text-img {
+    max-width: 684px;
+    width: 100%;
+    height:34px;
+    margin-top: 34px;
+  }
+
+  /* 2 страница */
+  .page2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tabs {
+    flex-direction: column;
+    /* background-color: blueviolet; */
+  }
+
+  .tab1 {
+    width: 110px;
+    height:110px;
+    background-color: black;
+    margin: 10px ;
+    margin-left: 110px;
+    border-radius: 5%;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+  }
+
+  .tab1-text {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+
+  .tab1:first-child {
+    background-color:rgba(236, 121, 121, 1);
+    margin-top: 110px ;
+  }
+
+  .page2-text {
+    margin: 120px;
+  }
+
+  .page2-title {
+    margin-bottom: 60px;
+
+  }
+
+  .downloadbtnpage2 {
+    margin-top: 80px;
+    background-color:rgba(236, 121, 121, 1);
+    color: white;
+    border:none;
+    width: 135px;
+    height: 42px;
+    cursor: pointer;
+  }
+
+  /* 3 страница */
+
+  /* .awesome-section-wrapper {
+    display: flex;
+    justify-content:space-between;
+
+  } */
+  .awesome-section {
+    padding: 100px 0 90px;
+    margin-top: 10px;
+  }
+  
+  .section-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 25px;
+  }
+  
+  .section-subtitle {
+    color: #86878b;
+    margin-bottom: 35px;
+  }
+  
+  .title-breakline {
+    width: 64px;
+    margin: 0 auto 30px;
+  }
+  
+  .awesome-section-title-brackline {
+    border: 1px solid #e72424;
+  }
+  
+  .awesome-section-subtitle {
+    font-size: 14px;
+  }
+  
+  .awesome-info-blok {
+    display: inline-block;
+    width: 350px;
+    margin-right: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+  
+  .awesome-info-blok:last-child {
+    margin-right: 0;
+  }
+  
+  .awesome-info-blok-icon {
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #e72424;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+  }
+  
+  .awesome-info-blok-icon-light_bulb {
+    background-image: url("./img/lihgt_bulb_icon.svg");
+  }
+  
+  .awesome-info-blok-icon-keyboard {
+    background-image: url("./img/keyboard_icon.svg");
+    
+  }
+  
+  .awesome-info-blok-icon-light {
+    background-image: url("./img/light_icon.svg");
+  }
+  
+  .awesome-info-blok-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .awesome-info-blok-text {
+    font-size: 14px;
+  }
+  
+  /* 4 страница */
+.pricing-section {
+  background-color: rgba(245, 245, 245, 1);
+}
+
+  .page4 {
+    margin-top: 45px;
+    display: flex;
+    justify-content:space-around;
+  }
+
+  .page4-main-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .page4-main-subtitle {
+    color: #86878b;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  
+  .page4-title {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+  }
+
+  .page4-subtitle {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 90px;
+  }
+
+  .title-breakline2 {
+    width: 64px;
+    margin: 0 auto 35px;
+    border: 1px solid #e72424;
+  }
+  
+
+  .full-block {
+    width: 340px;
+    height: 416px;
+    
+  }
+
+  .black-part {
+    width: 340px;
+    height: 100px;
+    background-color: black;
+    margin: 2px 0;
+    
+  }
+  .black-part4 {
+    width: 340px;
+    height: 70px;
+  }
+
+  .black-part2, .black-part3{
+    width: 340px;
+    height: 50px;
+    background-color: black;
+  }
+  .black-part5 {
+    width: 340px;
+    height: 30px;
+   
+  }
+
+  .block-subtitle2{
+    color: white;
+    text-align: center;
+  }
+  .block-title {
+    color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .block-subtitle {
+    color:gray;
+    text-align: center;
+  }
+
+  .white-part {
+    width: 340px;
+    height: 40px;
+    margin: 4px 0;
+    text-align: center;
+    background-color: white;
+  }
+
+  .white-part-text {
+    color:gray;
+  }
+
+  /* PAGE 5 */
+.feedback {
+  display: inline-block;
+  width: 270px;
+  height: 140px;
+  margin-right: 30px;
+  text-align: center;
+  margin-left: 110px;
+}
+.feedback-wrapper {
+  
+}
+  .feedback-text {
+    width: 298px;
+    height:110px;
+    background-color: rgba(226, 226, 226, 1);
+    border-radius: 5%;
+  }
+
+  .feedback-client-name {
+    font-size: 20px;
+
+  }
+
+  .feedback-client-position {
+    color: rgba(134, 135, 139, 1);
+    
+  }
+
+  .download-section-title {
+      
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 25px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .download-section-title-brackline {
+    border: 1px solid #fff;
+  }
+  
+  .download-section-subtitle {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+  }
+  
+  .download-section-button {
+    border: 1px solid #fff;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 25px;
+    background-color: transparent;
+    text-align: center;
+    
+  }
+  
+  .download-section {
+    position: relative;
+    background-image: url("./img/background\ 1.svg");
+    background-size: cover;
+    padding: 75px 0 40px;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+  
+  .overlap-blackout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    top: 0;
+    z-index: -1;
+  }
+
+  /* 6 страница */
+  .contact-form {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sendbtn {
+    background-color: #EC7979;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 165px;
+    height: 45px;
+    opacity: 0.9;
+    border-radius: 3%;
+    margin: 0 auto;
+  }
